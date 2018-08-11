@@ -2,7 +2,7 @@
 
 Mark Harrison : 6 Aug 2018
 
-![](images/appinsights.png)
+![](Images/AppInsights.png)
 
 - [Part 1 - Create AppInsights instance](appinsights-1.md)
 - [Part 2 - Develop and deploy AppInsights enabled webapp](appinsights-2.md)
