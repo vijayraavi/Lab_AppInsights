@@ -5,10 +5,10 @@ Mark Harrison : 6 Aug 2018
 ![](Images/AppInsights.png)
 
 - [Part 1 - Create AppInsights instance](appinsights-1.md)  
-- [Part 2 - Develop and deploy AppInsights enabled webapp](appinsights-2.md) ... this document
-- [Part 3 - Get insights on application](appinsights-3.md)
+- [Part 2 - Develop and deploy AppInsights enabled webapp](appinsights-2.md)
+- [Part 3 - Get insights on application](appinsights-3.md) ... this document
 - [Part 4 - Advanced Analytics](appinsights-4.md)  
-- [Part 5 - Availability Monitoring](appinsights-5.md) ... this document
+- [Part 5 - Availability Monitoring](appinsights-5.md)
 - [Part 6 - Usage Behaviour Analysis](appinsights-6.md)
 
 ## Get insights on application
@@ -19,7 +19,7 @@ Check the AppInsights overview page.
 
 Note the response times, server requests, failed requests.
 
-![](Images/AppIns218.png)
+![](Images/AppIns226.png)
 
 ### Live Metrics
 
