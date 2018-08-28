@@ -221,7 +221,7 @@ Add the following code to `IConfiguration Configuration` in startup.cs
 
 ### Custom Events
 
-We can instrument application code by augmeningt the captured telemetry with custom events and custom metrics (continuous measurement).
+We can instrument application code by augmenting the captured telemetry with custom events and custom metrics (continuous measurement).
 
 This could also be used for behaviour monitoring, and identify what users do you your site.
 
