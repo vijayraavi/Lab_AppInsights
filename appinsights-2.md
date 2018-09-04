@@ -219,6 +219,30 @@ Add the following code to `IConfiguration Configuration` in startup.cs
 
 ```
 
+Add the following settings to the appsettings.json file 
+
+```json
+{
+  "ApplicationInsights": {
+    "InstrumentationKey": "<your instrumentation key>"
+  },
+  "SnapshotCollectorConfiguration": {
+    "IsEnabledInDeveloperMode": false,
+    "ThresholdForSnapshotting": 1,
+    "MaximumSnapshotsRequired": 3,
+    "MaximumCollectionPlanSize": 50,
+    "ReconnectInterval": "00:15:00",
+    "ProblemCounterResetInterval":"1.00:00:00",
+    "SnapshotsPerTenMinutesLimit": 1,
+    "SnapshotsPerDayLimit": 30,
+    "SnapshotInLowPriorityThread": true,
+    "ProvideAnonymousTelemetry": true,
+    "FailedRequestLimit": 3
+  }
+}
+
+```
+
 ### Custom Events
 
 We can instrument application code by augmenting the captured telemetry with custom events and custom metrics (continuous measurement).
